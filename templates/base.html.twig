@@ -20,6 +20,8 @@
     <body>
         {% block header %}
             {% include "partials/_header.html.twig" %}
+
+            <a href="{{ path ('ingredient') }}" >Ingredient</a>
         {% endblock %}
         {% block body %}{% endblock %}
     </body>
